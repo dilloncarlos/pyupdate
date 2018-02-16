@@ -3,13 +3,10 @@ Command Line Tool for Updating All Installed Python Modules
 
 ## Usage
 
-Use the following steps to make this shell script available to you from any directory
+Use the following steps to make this shell script available to you from any directory:
 
-1. Either clone this repository to a directory in your path - perhaps you have a bin folder in your home directory - 
-  or create a symlink to pyupdate.sh in your ~./local/bin folder.
-2. Make sure to make the script executable. For the current user only, this is a simple as 'chmod +x pyupdate.sh' 
-  in its containing directory.
-  
+1. Run install script to add pyupdate to ~/.local/share and create a symlink in ~/.local/bin
+
 ## Caution
 
 This script attempts to update ALL of your packages installed via pip. This could beb quite time consuming.
