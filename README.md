@@ -5,9 +5,9 @@ Command Line Tool for Updating All Installed Python Modules
 
 Use the following steps to make this shell script available to you from any directory:
 
-1. Run install script to add pyupdate to ~/.local/share and create a symlink in ~/.local/bin
+1. Run install script to add pyupdate to ~/.local/share and create a symlink in ~/.local/bin. It should suffice to type './intall.sh' in the working directory.
 
 ## Caution
 
-This script attempts to update ALL of your packages installed via pip. This could beb quite time consuming.
+This script attempts to update ALL of your packages installed via pip. This could be quite time consuming.
   Consider running this process in the background, and definitely make sure you don't urgently need python before using pyupdate.
